@@ -40,7 +40,10 @@ public class App {
  
         System.out.println("Server started");
  
-        runGetRequest();
+        for (int i = 0; i<9; i++){
+         
+        runGetRequest(i);
+        }
         System.out.print("Log file test");
          //test
         //runDatabaseQuery();
@@ -49,10 +52,10 @@ public class App {
     /**
      * Performs a simple GET request and prints the result to the log.
      */
-    private static void runGetRequest() {
+    private static void runGetRequest(int y) {
  
     	// sample URL
-        String url = "http://129.144.148.87:3000/fighters/33/0/red/so1509";
+        String url = "http://129.144.148.87:3000/fighters/33/"+y+"/red/so1509";
         CloseableHttpResponse response = null;
  
         try {
