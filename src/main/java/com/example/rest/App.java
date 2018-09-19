@@ -1,4 +1,4 @@
-/* Copyright © 2016 Oracle and/or its affiliates. All rights reserved. */
+/* Copyright Â© 2016 Oracle and/or its affiliates. All rights reserved. */
 package com.example.rest;
  
 import java.util.Optional;
@@ -50,7 +50,7 @@ public class App {
     private static void runGetRequest() {
  
     	// sample URL
-        String url = "http://ip.jsontest.com/";
+        String url = "http://140.86.15.104:3000/shield/33/54/red/Your_microservice_name_goes_here";
         CloseableHttpResponse response = null;
  
         try {
