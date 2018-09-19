@@ -41,6 +41,7 @@ public class App {
         System.out.println("Server started");
  
         runGetRequest();
+        System.out.print("Log file test");
          //test
         //runDatabaseQuery();
     }
